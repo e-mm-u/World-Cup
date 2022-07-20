@@ -27,7 +27,7 @@ body{
     height: 400px;
     width: 100%;
     border-radius: 20px;
-    /* border: 1px dashed rgb(121, 94, 77); */
+    border: 1px dashed rgb(121, 94, 77);
 }
 .top-banner .text{
     margin: auto 40px;
@@ -318,6 +318,47 @@ body{
         min-height: 325px;
         width: 85%;   
     }
+
+    /* middle */
+    .middle{
+        /* border: 1px solid red; */
+        display: block;
+        /* flex-direction: column; */
+        margin-top: 10px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .side-bar{
+        /* border: 1px solid red; */
+        margin: 20px 0px 10px 0;
+        height: 200px;
+        width: 100%;
+        padding: 30px 0;
+        display:flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 0; 
+        
+    }
+    .side-bar button{
+        /* border: none; */
+        border: 1px solid lightgray ;
+        height: 50px;
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 0;
+        padding: 0;
+        border-radius: 20px;
+    
+    }
+
 }
 
 @media only screen and (min-width: 688px) and (max-width: 992px){
@@ -358,13 +399,11 @@ body{
     }
     .side-bar button{
         /* border: none; */
+        border: 1px solid lightgray ;
         height: 40px;
         width: 30%;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-
-        border: 1 px solid rgba(248, 244, 244, 0.315);
-        
         
         font-size: 20px;
         font-weight: 700;
