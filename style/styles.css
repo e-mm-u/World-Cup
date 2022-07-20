@@ -1,9 +1,10 @@
-
-
+/* removing browser's predefined margin and padding */
 *{
     margin: 0;
     padding: 0;
 }
+
+/* common style for body */
 body{
     margin-top: 20px;
     margin-right: 10%;
