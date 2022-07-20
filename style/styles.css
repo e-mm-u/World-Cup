@@ -261,6 +261,7 @@ body{
     color: rgb(93, 110, 206);
 }
 .row-3{
+    
     display: flex;
     height: 50px;
     width: 100%;
@@ -277,7 +278,48 @@ body{
 
 @media only screen and (max-width: 688px){
 
+    /* top banner */
+    .top-banner{
+        height: 620px;
+        display: grid;
+        grid-template-columns: none;
+        /* border: 1px solid red; */
+        grid-template-rows: 40% 60%;
+    }
+
+    .top-banner .text{
+        
+        margin: 40px 80px 10px 80px;
+        height: 40%;
+    
+        display: grid;
+        grid-template-rows: .4fr .3fr .3fr;
+        grid-row-gap: 10%;
+        
+        align-items: center;
+        
+        /* border: 1px dashed white; */
+        
+    }
+    .top-banner .text h1{
+        font-size: 5vw;
+        /* border: 1px solid rgb(156, 156, 40); */
+        
+    }
+    .top-banner .text p{
+        font-size: 2vw;
+    }
+    .top-banner img{
+        /* border: 1px dashed rgb(129, 14, 14); */
+        margin: 20px;
+        margin-bottom: 0%;
+        
+        height: 352px;
+        min-height: 325px;
+        width: 85%;   
+    }
 }
+
 @media only screen and (min-width: 688px) and (max-width: 992px){
     /* top banner */
 
