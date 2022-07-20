@@ -32,6 +32,8 @@ body{
     height: 400px;
 
     display: grid;
+    grid-template-rows: .4fr .3fr .3fr;
+    grid-row-gap: 1%;
     
     align-items: center;
     
@@ -39,7 +41,7 @@ body{
     
 }
 .top-banner .text h1{
-    font-size: 30px;
+    font-size: 40px;
     /* border: 1px solid rgb(156, 156, 40); */
     
 }
@@ -109,22 +111,24 @@ body{
 
 }
 .blogs{
-    /* margin-top: 100px; */
+    margin: 0px;
     display: grid;
     justify-content: space-between;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 5px;
+    /* grid-gap: 5px; */
     /* border: 1px solid red; */
 }
 
 .blog{
     display: flex;
     flex-direction: column;
+    margin: 0 0 30px 15px;
+    /* border: 1px solid navy; */
 }
 
 .blog img{
     height: 120px;
-    width: 90%;
+    width: 220px;
 }
 
 .blog button{
@@ -143,9 +147,10 @@ body{
 .blog p{
     font-size: 15px;
 }
-.blog .icon i{
-    color: rgb(54, 26, 54);
-    
+.blog .icon {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
     margin: 5% 30% 5% 0;
    
 }
