@@ -21,7 +21,8 @@ a{
     color: black;
 }
 .top-banner{
-    background-color: black;
+    background-color: rgb(4, 26, 15);
+    /* opacity: 80%; */
     color: white;
 
     display: grid;
@@ -30,7 +31,7 @@ a{
     height: 400px;
     width: 100%;
     border-radius: 20px;
-    border: 1px dashed rgb(121, 94, 77);
+    /* border: 1px dashed rgb(121, 94, 77); */
 }
 .top-banner .text{
     margin: auto 40px;
@@ -56,19 +57,33 @@ a{
     /* border: 1px solid yellow; */
 }
 .top-banner .text button{
-    font-size: 15px;
-    font-weight: 700;
-    color: white;
+    height: 40px;
+    width: 150px;
+
     background-color: crimson;
 
     border: none;
     border-radius: 20px;
     padding: 3% 5%;
-    
-    /* border: 1px solid yellow; */
 
+    transition: transform;
+
+        /* border: 1px solid yellow; */
+}
+.top-banner .text button p{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
     
 }
+.top-banner .text button :hover{
+    /* height:50px;
+    width: 100px; */
+    transform: rotate(360deg);
+    transform-origin: center;
+    transition-duration: 3s;
+}
+
 .top-banner img{
     /* border: 1px dashed white; */
     margin: 20px;
@@ -91,7 +106,7 @@ a{
     width: 100%;
 }
 .side-bar{
-    background-color:black;
+    background-color:rgb(4, 26, 15);
     padding: 20px;
     height: 200px;
     width: 100%;
@@ -141,6 +156,8 @@ a{
     display: flex;
     flex-direction: column;
     margin: 0 0 30px 15px;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+    border-radius: 20px;
     /* border: 1px solid navy; */
 }
 
@@ -181,7 +198,7 @@ a{
     schedule middle 
 ----------------------------*/
 .selected{
-    background-color: crimson; 
+    background-color: rgb(255, 124, 2); 
     color:white; 
     border:none"
 }
@@ -236,11 +253,12 @@ a{
     margin-top: 100px;
     height: 300px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(4, 26, 15);
     color: white;
 }
 footer a{
     color: white;
+    z-index: 10001;
 }
 .goal{
     display: flex;
@@ -255,7 +273,7 @@ footer a{
     width: 50%;
     margin-top: 50px;
     /* justify-content: center; */
-    background-color: rgb(31, 27, 27);
+    background-color: rgb(21 42 23);;
     border: none;
 }
 .row-1{
@@ -273,7 +291,7 @@ footer a{
 .row-2 a{
     margin-left: 5px;
     margin-right: 5px;
-    color: rgb(93, 110, 206);
+    color: rgba(119, 206, 240, 0.315);
 }
 .row-3{
     
